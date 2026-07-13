@@ -91,8 +91,10 @@ const translations = {
     "contact.form.message": "Bericht",
     "contact.form.messagePh": "Vertel iets over je bedrijf en je wensen...",
     "contact.form.submit": "Verstuur bericht",
-    "contact.form.note": "Dit formulier is nog niet gekoppeld aan e-mail — dat regelen we bij de lancering.",
-    "contact.form.sent": "Bedankt! Je bericht is (nog niet echt) verstuurd — koppel dit formulier bij de lancering aan een echte inbox.",
+    "contact.form.note": "Ik reageer meestal binnen één dag.",
+    "contact.form.sending": "Bezig met versturen...",
+    "contact.form.sent": "Bedankt voor je bericht! Ik neem zo snel mogelijk contact met je op.",
+    "contact.form.error": "Er ging iets mis bij het versturen. Probeer het opnieuw of mail rechtstreeks naar ramisharp@outlook.com.",
 
     "footer.tag": "Websites voor lokale bedrijven in Leiden.",
     "footer.rights": "Alle rechten voorbehouden."
@@ -185,8 +187,10 @@ const translations = {
     "contact.form.message": "Message",
     "contact.form.messagePh": "Tell me about your business and what you need...",
     "contact.form.submit": "Send message",
-    "contact.form.note": "This form isn't connected to an inbox yet — we'll wire that up at launch.",
-    "contact.form.sent": "Thanks! Your message isn't actually sent yet — connect this form to a real inbox at launch.",
+    "contact.form.note": "I usually reply within a day.",
+    "contact.form.sending": "Sending...",
+    "contact.form.sent": "Thanks for your message! I'll get back to you as soon as possible.",
+    "contact.form.error": "Something went wrong sending this. Please try again or email ramisharp@outlook.com directly.",
 
     "footer.tag": "Websites for local businesses in Leiden.",
     "footer.rights": "All rights reserved."
@@ -258,14 +262,39 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.12 });
   revealTargets.forEach(el => observer.observe(el));
 
-  // ---- contact form (placeholder handling until a backend is connected) ----
+  // ---- contact form (submits to Formspree) ----
   const form = document.getElementById("contactForm");
   const note = document.getElementById("formNote");
+  const submitBtn = form.querySelector("button[type='submit']");
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-    note.textContent = translations[currentLang]["contact.form.sent"];
-    note.style.color = "var(--accent)";
-    form.reset();
+    submitBtn.disabled = true;
+    note.textContent = translations[currentLang]["contact.form.sending"];
+    note.style.color = "";
+
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: { "Accept": "application/json" }
+    })
+      .then(response => {
+        if (response.ok){
+          note.textContent = translations[currentLang]["contact.form.sent"];
+          note.style.color = "var(--accent)";
+          form.reset();
+        } else {
+          note.textContent = translations[currentLang]["contact.form.error"];
+          note.style.color = "var(--text-danger, #A32D2D)";
+        }
+      })
+      .catch(() => {
+        note.textContent = translations[currentLang]["contact.form.error"];
+        note.style.color = "var(--text-danger, #A32D2D)";
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+      });
   });
 
   // ---- footer year ----
