@@ -25,7 +25,7 @@ const translations = {
     "about.title": "Hallo, ik ben Rami",
     "about.p1": "Ik studeer ICT en ben via die weg verliefd geworden op webdevelopment. Raam Studio is waar dat is uitgegroeid tot iets echts: een klein, persoonlijk studio voor lokale ondernemers die een website willen zonder het prijskaartje — of de eindeloze e-mailwisselingen — van een groot bureau.",
     "about.p2": "Werk je met mij samen, dan werk je rechtstreeks met de persoon die je site bouwt. Geen accountmanagers, geen overdrachtsmomenten — gewoon heldere communicatie van de eerste schets tot de livegang.",
-    "about.founded": "Raam Studio is net gestart — en dat betekent dat elke klant mijn volle aandacht krijgt.",
+    "about.founded": "Raam Studio — elke klant krijgt mijn volle aandacht.",
 
     "services.label": "Diensten",
     "services.title": "Wat ik voor je kan bouwen",
@@ -70,7 +70,7 @@ const translations = {
     "work.p3.tag": "Binnenkort — dienstverlening",
 
     "why.label": "Waarom Raam Studio",
-    "why.title": "Geen account manager. Gewoon mij.",
+    "why.title": "Geen account manager. Gewoon ik.",
     "why.body": "Grote bureaus werken met lagen: verkoop, projectmanagement, developers. Bij Raam Studio praat je rechtstreeks met de persoon die je website bouwt — sneller, persoonlijker en zonder overheadkosten die jij uiteindelijk betaalt.",
     "why.c1.title": "Direct & persoonlijk",
     "why.c1.body": "Eén aanspreekpunt, van eerste gesprek tot livegang.",
@@ -121,7 +121,7 @@ const translations = {
     "about.title": "Hi, I'm Rami",
     "about.p1": "I'm an ICT student who fell in love with web development along the way. Raam Studio is where that turned into something real: a small, personal studio for local business owners who want a website without the price tag — or the endless email chains — of a big agency.",
     "about.p2": "When you work with me, you work directly with the person building your site. No account managers, no hand-offs — just clear communication from the first sketch to launch day.",
-    "about.founded": "Raam Studio just launched — which means every client gets my full attention.",
+    "about.founded": "Raam Studio — every client gets my full attention.",
 
     "services.label": "Services",
     "services.title": "What I can build for you",
