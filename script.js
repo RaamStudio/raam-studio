@@ -11,7 +11,7 @@ const translations = {
     "nav.work": "Werk",
     "nav.contact": "Contact",
 
-    "hero.eyebrow": "Gevestigd in Leiden",
+    "hero.eyebrow": "Gevestigd in Leiden!",
     "hero.title": "Websites die lokale bedrijven laten groeien",
     "hero.sub": "Moderne, snelle en betaalbare websites voor salons, restaurants en winkels in Leiden en omgeving.",
     "hero.cta": "Neem contact op",
