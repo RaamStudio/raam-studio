@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raam Studio - Websites for local businesses in Leiden</title>
+<meta name="description" content="Raam Studio builds modern, fast and affordable websites for local businesses in Leiden - salons, restaurants, shops and more.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28">
+          <rect x="2" y="2" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="16" y1="2" x2="16" y2="30" stroke="currentColor" stroke-width="2"/>
+          <line x1="2" y1="16" x2="30" y2="16" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <span class="logo-text">Raam Studio</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="index.html#work" data-i18n="nav.work">Work</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle active" type="button">
+          <span data-i18n="nav.diensten">Diensten</span>
+          <svg viewBox="0 0 12 8" fill="none"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+        <div class="dropdown-menu">
+          <a href="websites.html" class="active" data-i18n="nav.websites">Websites</a>
+          <a href="social-media.html" data-i18n="nav.socialmedia">Social Media</a>
+        </div>
+      </div>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-option active" data-lang-btn="nl">NL</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-option" data-lang-btn="en">EN</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ PAGE INTRO ============ -->
+  <section class="section" style="padding-bottom:0;">
+    <div class="container" style="max-width:720px; text-align:center; margin:0 auto;">
+      <span class="section-label" data-i18n="websitespage.label">Websites</span>
+      <h1 data-i18n="websitespage.title" style="font-family:var(--font-display); font-weight:500; font-size:clamp(30px,4.5vw,42px); margin:0 0 16px;">Een website die voor je werkt</h1>
+      <p class="section-sub" style="margin-left:auto; margin-right:auto;" data-i18n="websitespage.sub">Snel, betaalbaar en persoonlijk - geen account managers, geen verrassingen achteraf. Hieronder vind je wat ik voor je kan bouwen en wat het kost.</p>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section services">
+    <div class="container">
+      <span class="section-label" data-i18n="services.label">Diensten</span>
+      <h2 data-i18n="services.title">Wat ik voor je kan bouwen</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="ti ti-layout-grid" aria-hidden="true"></i>
+          <h3 data-i18n="services.s1.title">Websiteontwerp</h3>
+          <p data-i18n="services.s1.body">Een responsive website die er op elk scherm professioneel uitziet - afgestemd op jouw bedrijf en doelgroep.</p>
+        </div>
+        <div class="service-card">
+          <i class="ti ti-server" aria-hidden="true"></i>
+          <h3 data-i18n="services.s2.title">Hosting & onderhoud</h3>
+          <p data-i18n="services.s2.body">Ik regel hosting, domein, updates en backups, zodat jij je met je bedrijf kunt bezighouden - niet met techniek.</p>
+        </div>
+        <div class="service-card">
+          <i class="ti ti-search" aria-hidden="true"></i>
+          <h3 data-i18n="services.s3.title">SEO & vindbaarheid</h3>
+          <p data-i18n="services.s3.body">Zodat klanten in Leiden en omgeving je ook echt vinden via Google.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <span class="section-label" data-i18n="pricing.label">Prijzen</span>
+      <h2 data-i18n="pricing.title">Duidelijke prijzen, geen verrassingen</h2>
+      <div class="pricing-grid">
+
+        <div class="price-card">
+          <h3 data-i18n="pricing.basic.name">Basic</h3>
+          <p class="price"><span class="amount">€399</span><span class="period" data-i18n="pricing.oneoff">eenmalig</span></p>
+          <ul>
+            <li data-i18n="pricing.basic.f1">Responsive website</li>
+            <li data-i18n="pricing.basic.f2">Contactpagina</li>
+            <li data-i18n="pricing.basic.f3">Google Maps</li>
+            <li data-i18n="pricing.basic.f4">Basis SEO</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-ghost" data-i18n="pricing.cta">Kies dit pakket</a>
+        </div>
+
+        <div class="price-card featured">
+          <span class="badge" data-i18n="pricing.popular">Populair</span>
+          <h3 data-i18n="pricing.plus.name">Plus</h3>
+          <p class="price"><span class="amount">€299</span><span class="period" data-i18n="pricing.setup">setup</span></p>
+          <p class="price-sub"><span class="amount-sm">€49</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
+          <ul>
+            <li data-i18n="pricing.plus.f1">Alles uit Basic</li>
+            <li data-i18n="pricing.plus.f2">Hosting & domein</li>
+            <li data-i18n="pricing.plus.f3">Beveiliging & backups</li>
+            <li data-i18n="pricing.plus.f4">Kleine contentwijzigingen</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-primary" data-i18n="pricing.cta">Kies dit pakket</a>
+        </div>
+
+        <div class="price-card">
+          <h3 data-i18n="pricing.premium.name">Premium</h3>
+          <p class="price"><span class="amount">€499</span><span class="period" data-i18n="pricing.setup">setup</span></p>
+          <p class="price-sub"><span class="amount-sm">€99</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
+          <ul>
+            <li data-i18n="pricing.premium.f1">Alles uit Plus</li>
+            <li data-i18n="pricing.premium.f2">Voorrang bij support</li>
+            <li data-i18n="pricing.premium.f3">Onbeperkt kleine aanpassingen</li>
+            <li data-i18n="pricing.premium.f4">SEO-optimalisatie & monitoring</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-ghost" data-i18n="pricing.cta">Kies dit pakket</a>
+        </div>
+
+      </div>
+      <div class="teaser-footer" style="text-align:center; margin-top:40px;">
+        <a href="index.html#contact" class="btn btn-primary" data-i18n="websitespage.cta">Neem contact op</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="24" height="24">
+          <rect x="2" y="2" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="16" y1="2" x2="16" y2="30" stroke="currentColor" stroke-width="2"/>
+          <line x1="2" y1="16" x2="30" y2="16" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <span>Raam Studio</span>
+    </div>
+    <p class="footer-tag" data-i18n="footer.tag">Websites & social media content voor lokale bedrijven in Leiden.</p>
+    <p class="footer-copy">© <span id="year"></span> Raam Studio. <span data-i18n="footer.rights">Alle rechten voorbehouden.</span></p>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/iconfont/tabler-icons.min.css">
+<script src="script.js"></script>
+</body>
+</html>

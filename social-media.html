@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raam Studio - Social Media Content for local businesses in Leiden</title>
+<meta name="description" content="Raam Studio maakt TikTok en Instagram content voor lokale bedrijven in Leiden - van opname tot een kant-en-klaar contentpakket.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28">
+          <rect x="2" y="2" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="16" y1="2" x2="16" y2="30" stroke="currentColor" stroke-width="2"/>
+          <line x1="2" y1="16" x2="30" y2="16" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <span class="logo-text">Raam Studio</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="index.html#work" data-i18n="nav.work">Work</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle active" type="button">
+          <span data-i18n="nav.diensten">Diensten</span>
+          <svg viewBox="0 0 12 8" fill="none"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+        <div class="dropdown-menu">
+          <a href="websites.html" data-i18n="nav.websites">Websites</a>
+          <a href="social-media.html" class="active" data-i18n="nav.socialmedia">Social Media</a>
+        </div>
+      </div>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-option active" data-lang-btn="nl">NL</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-option" data-lang-btn="en">EN</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ PAGE INTRO ============ -->
+  <section class="section" style="padding-bottom:0;">
+    <div class="container" style="max-width:720px; text-align:center; margin:0 auto;">
+      <span class="section-label" data-i18n="socialpage.label">Social Media Content</span>
+      <h1 data-i18n="socialpage.title" style="font-family:var(--font-display); font-weight:500; font-size:clamp(30px,4.5vw,42px); margin:0 0 16px;">Content die opvalt op TikTok & Instagram</h1>
+      <p class="section-sub" style="margin-left:auto; margin-right:auto;" data-i18n="socialpage.sub">Regelmatig, professioneel gefilmde content voor je bedrijf - zonder dat jij zelf achter de camera hoeft te staan.</p>
+    </div>
+  </section>
+
+  <!-- ============ WAT DIT INHOUDT ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="ti ti-camera" aria-hidden="true"></i>
+          <h3 data-i18n="social.s1.title">Op locatie filmen</h3>
+          <p data-i18n="social.s1.body">Ik kom gemiddeld één keer per week bij je langs om ter plekke content te filmen - geen studio-afstand, geen gedoe.</p>
+        </div>
+        <div class="service-card">
+          <i class="ti ti-movie" aria-hidden="true"></i>
+          <h3 data-i18n="social.s2.title">Editing inbegrepen</h3>
+          <p data-i18n="social.s2.body">Ruwe beelden worden omgezet naar kant-en-klare video's, gemiddeld twee per week, klaar om te posten.</p>
+        </div>
+        <div class="service-card">
+          <i class="ti ti-brand-tiktok" aria-hidden="true"></i>
+          <h3 data-i18n="social.s3.title">TikTok & Instagram</h3>
+          <p data-i18n="social.s3.body">Content afgestemd op wat werkt op beide platforms - van korte reels tot behind-the-scenes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTENTPAKKET ============ -->
+  <section class="section pricing">
+    <div class="container">
+      <span class="section-label" data-i18n="social.package.label">Tarief</span>
+      <h2 data-i18n="social.package.title">Eén helder pakket</h2>
+      <div class="pricing-grid" style="max-width:600px; margin:32px auto 0; grid-template-columns:1fr;">
+        <div class="price-card featured">
+          <span class="badge" data-i18n="social.package.badge">Nieuw</span>
+          <h3 data-i18n="social.package.name">Wekelijks contentpakket</h3>
+          <p class="price"><span class="amount">€17,50</span><span class="period" data-i18n="social.package.rate">per uur</span></p>
+          <ul>
+            <li data-i18n="social.package.f1">Gemiddeld 1x per week op locatie filmen</li>
+            <li data-i18n="social.package.f2">Gemiddeld 2 video's per week opgeleverd</li>
+            <li data-i18n="social.package.f3">Geschikt voor TikTok & Instagram</li>
+            <li data-i18n="social.package.f4">Direct contact - geen tussenpersonen</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-primary" data-i18n="social.package.cta">Neem contact op</a>
+          <p class="form-note" data-i18n="social.package.note">Aantal video's per week is bespreekbaar - dit is een gemiddelde, geen vast aantal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="24" height="24">
+          <rect x="2" y="2" width="28" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="16" y1="2" x2="16" y2="30" stroke="currentColor" stroke-width="2"/>
+          <line x1="2" y1="16" x2="30" y2="16" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      <span>Raam Studio</span>
+    </div>
+    <p class="footer-tag" data-i18n="footer.tag">Websites & social media content voor lokale bedrijven in Leiden.</p>
+    <p class="footer-copy">© <span id="year"></span> Raam Studio. <span data-i18n="footer.rights">Alle rechten voorbehouden.</span></p>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/iconfont/tabler-icons.min.css">
+<script src="script.js"></script>
+</body>
+</html>

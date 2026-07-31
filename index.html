@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Raam Studio — Websites for local businesses in Leiden</title>
-<meta name="description" content="Raam Studio builds modern, fast and affordable websites for local businesses in Leiden — salons, restaurants, shops and more.">
+<title>Raam Studio - Websites for local businesses in Leiden</title>
+<meta name="description" content="Raam Studio builds modern, fast and affordable websites for local businesses in Leiden - salons, restaurants, shops and more.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,11 +28,19 @@
     </a>
 
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="#about" data-i18n="nav.about">About</a>
-      <a href="#services" data-i18n="nav.services">Services</a>
-      <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
-      <a href="#work" data-i18n="nav.work">Work</a>
-      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <a href="index.html#about" data-i18n="nav.about">About</a>
+      <a href="index.html#work" data-i18n="nav.work">Work</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle" type="button">
+          <span data-i18n="nav.diensten">Diensten</span>
+          <svg viewBox="0 0 12 8" fill="none"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+        <div class="dropdown-menu">
+          <a href="websites.html" data-i18n="nav.websites">Websites</a>
+          <a href="social-media.html" data-i18n="nav.socialmedia">Social Media</a>
+        </div>
+      </div>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="nav-actions">
@@ -57,8 +65,8 @@
     </div>
     <div class="container hero-inner">
       <span class="eyebrow" data-i18n="hero.eyebrow">Gevestigd in Leiden!</span>
-      <h1 data-i18n="hero.title">Websites die lokale bedrijven laten groeien</h1>
-      <p class="hero-sub" data-i18n="hero.sub">Moderne, snelle en betaalbare websites voor salons, restaurants en winkels in Leiden en omgeving.</p>
+      <h1 data-i18n="hero.title">Websites en content die lokale bedrijven laten groeien</h1>
+      <p class="hero-sub" data-i18n="hero.sub">Moderne, snelle en betaalbare websites - plus content die opvalt op TikTok en Instagram - voor salons, restaurants en winkels in Leiden en omgeving.</p>
       <div class="hero-actions">
         <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">Neem contact op</a>
         <a href="#work" class="btn btn-ghost" data-i18n="hero.cta2">Bekijk het werk</a>
@@ -98,84 +106,32 @@
       <div class="about-text">
         <span class="section-label" data-i18n="about.label">Over mij</span>
         <h2 data-i18n="about.title">Hallo, ik ben Rami</h2>
-        <p data-i18n="about.p1">Ik studeer ICT en ben via die weg verliefd geworden op webdevelopment. Raam Studio is waar dat is uitgegroeid tot iets echts: een klein, persoonlijk studio voor lokale ondernemers die een website willen zonder het prijskaartje — of de eindeloze e-mailwisselingen — van een groot bureau.</p>
-        <p data-i18n="about.p2">Werk je met mij samen, dan werk je rechtstreeks met de persoon die je site bouwt. Geen accountmanagers, geen overdrachtsmomenten — gewoon heldere communicatie van de eerste schets tot de livegang.</p>
-        <p class="about-founded" data-i18n="about.founded">Raam Studio — elke klant krijgt mijn volle aandacht.</p>
+        <p data-i18n="about.p1">Ik studeer ICT en ben via die weg verliefd geworden op webdevelopment - en inmiddels ook op contentcreatie. Raam Studio is waar dat is uitgegroeid tot iets echts: een klein, persoonlijk studio voor lokale ondernemers die een website willen, of gewoon wat meer zichtbaarheid op TikTok en Instagram, zonder het prijskaartje - of de eindeloze e-mailwisselingen - van een groot bureau.</p>
+        <p data-i18n="about.p2">Werk je met mij samen, dan werk je rechtstreeks met de persoon die je site bouwt of je content maakt. Geen accountmanagers, geen overdrachtsmomenten - gewoon heldere communicatie van het eerste idee tot het eindresultaat.</p>
+        <p class="about-founded" data-i18n="about.founded">Raam Studio - elke klant krijgt mijn volle aandacht.</p>
       </div>
     </div>
   </section>
 
-  <!-- ============ SERVICES ============ -->
-  <section id="services" class="section services">
+  <!-- ============ DIENSTEN OVERVIEW ============ -->
+  <section id="diensten" class="section">
     <div class="container">
-      <span class="section-label" data-i18n="services.label">Diensten</span>
-      <h2 data-i18n="services.title">Wat ik voor je kan bouwen</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <i class="ti ti-layout-grid" aria-hidden="true"></i>
-          <h3 data-i18n="services.s1.title">Websiteontwerp</h3>
-          <p data-i18n="services.s1.body">Een responsive website die er op elk scherm professioneel uitziet — afgestemd op jouw bedrijf en doelgroep.</p>
+      <span class="section-label" data-i18n="diensten.label">Diensten</span>
+      <h2 data-i18n="diensten.title">Twee manieren om samen te werken</h2>
+      <p class="section-sub" data-i18n="diensten.sub">Raam Studio bouwt websites voor lokale ondernemers, en maakt social media content voor bedrijven die zichtbaar willen zijn op TikTok en Instagram.</p>
+      <div class="watikdoe-grid">
+        <div class="watikdoe-card featured">
+          <i class="ti ti-code" aria-hidden="true"></i>
+          <h3 data-i18n="diensten.web.title">Websites</h3>
+          <p data-i18n="diensten.web.body">Snelle, betaalbare websites voor lokale ondernemers - van eerste ontwerp tot livegang, inclusief hosting en onderhoud.</p>
+          <a href="websites.html" class="btn btn-primary" data-i18n="diensten.web.cta">Bekijk websites</a>
         </div>
-        <div class="service-card">
-          <i class="ti ti-server" aria-hidden="true"></i>
-          <h3 data-i18n="services.s2.title">Hosting & onderhoud</h3>
-          <p data-i18n="services.s2.body">Ik regel hosting, domein, updates en backups, zodat jij je met je bedrijf kunt bezighouden — niet met techniek.</p>
+        <div class="watikdoe-card">
+          <i class="ti ti-device-tv" aria-hidden="true"></i>
+          <h3 data-i18n="diensten.content.title">Social media content</h3>
+          <p data-i18n="diensten.content.body">TikTok- en Instagram-video's voor bedrijven - van opname tot een kant-en-klaar contentpakket.</p>
+          <a href="social-media.html" class="btn btn-ghost" data-i18n="diensten.content.cta">Bekijk social media</a>
         </div>
-        <div class="service-card">
-          <i class="ti ti-search" aria-hidden="true"></i>
-          <h3 data-i18n="services.s3.title">SEO & vindbaarheid</h3>
-          <p data-i18n="services.s3.body">Zodat klanten in Leiden en omgeving je ook echt vinden via Google.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ PRICING ============ -->
-  <section id="pricing" class="section pricing">
-    <div class="container">
-      <span class="section-label" data-i18n="pricing.label">Prijzen</span>
-      <h2 data-i18n="pricing.title">Duidelijke prijzen, geen verrassingen</h2>
-      <div class="pricing-grid">
-
-        <div class="price-card">
-          <h3 data-i18n="pricing.basic.name">Basic</h3>
-          <p class="price"><span class="amount">€399</span><span class="period" data-i18n="pricing.oneoff">eenmalig</span></p>
-          <ul>
-            <li data-i18n="pricing.basic.f1">Responsive website</li>
-            <li data-i18n="pricing.basic.f2">Contactpagina</li>
-            <li data-i18n="pricing.basic.f3">Google Maps</li>
-            <li data-i18n="pricing.basic.f4">Basis SEO</li>
-          </ul>
-          <a href="#contact" class="btn btn-ghost" data-i18n="pricing.cta">Kies dit pakket</a>
-        </div>
-
-        <div class="price-card featured">
-          <span class="badge" data-i18n="pricing.popular">Populair</span>
-          <h3 data-i18n="pricing.plus.name">Plus</h3>
-          <p class="price"><span class="amount">€299</span><span class="period" data-i18n="pricing.setup">setup</span></p>
-          <p class="price-sub"><span class="amount-sm">€49</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
-          <ul>
-            <li data-i18n="pricing.plus.f1">Alles uit Basic</li>
-            <li data-i18n="pricing.plus.f2">Hosting & domein</li>
-            <li data-i18n="pricing.plus.f3">Beveiliging & backups</li>
-            <li data-i18n="pricing.plus.f4">Kleine contentwijzigingen</li>
-          </ul>
-          <a href="#contact" class="btn btn-primary" data-i18n="pricing.cta">Kies dit pakket</a>
-        </div>
-
-        <div class="price-card">
-          <h3 data-i18n="pricing.premium.name">Premium</h3>
-          <p class="price"><span class="amount">€499</span><span class="period" data-i18n="pricing.setup">setup</span></p>
-          <p class="price-sub"><span class="amount-sm">€99</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
-          <ul>
-            <li data-i18n="pricing.premium.f1">Alles uit Plus</li>
-            <li data-i18n="pricing.premium.f2">Voorrang bij support</li>
-            <li data-i18n="pricing.premium.f3">Onbeperkt kleine aanpassingen</li>
-            <li data-i18n="pricing.premium.f4">SEO-optimalisatie & monitoring</li>
-          </ul>
-          <a href="#contact" class="btn btn-ghost" data-i18n="pricing.cta">Kies dit pakket</a>
-        </div>
-
       </div>
     </div>
   </section>
@@ -185,27 +141,31 @@
     <div class="container">
       <span class="section-label" data-i18n="work.label">Werk</span>
       <h2 data-i18n="work.title">Een kijkje door het raam</h2>
-      <p class="section-sub" data-i18n="work.sub">Raam Studio is nét gestart — hier komen binnenkort echte projecten te staan.</p>
+      <p class="section-sub" data-i18n="work.sub">Raam Studio is nét gestart - hier komen binnenkort echte projecten te staan.</p>
       <div class="work-grid">
         <div class="work-card">
           <h3 data-i18n="work.p1.name">Kapsalon project</h3>
-          <p data-i18n="work.p1.tag">Binnenkort — hairsalon</p>
+          <p data-i18n="work.p1.tag">Binnenkort - hairsalon</p>
           <div class="work-window">
-            <div class="work-pane"></div><div class="work-pane"></div>
-            <div class="work-pane"></div><div class="work-pane"></div>
+            <div class="work-pane" style="background-image:url('images/work/mya-intro.png'); background-position:center;"></div>
+            <div class="work-pane" style="background-image:url('images/work/mya-grid.png'); background-position:center;"></div>
+            <div class="work-pane" style="background-image:url('images/work/mya-card.png'); background-position:center;"></div>
+            <div class="work-pane" style="background-image:url('images/work/mya-intro.png'); background-size:180%; background-position:60% 20%;"></div>
           </div>
         </div>
         <div class="work-card">
           <h3 data-i18n="work.p2.name">Restaurant project</h3>
-          <p data-i18n="work.p2.tag">Binnenkort — horeca</p>
+          <p data-i18n="work.p2.tag">Binnenkort - horeca</p>
           <div class="work-window">
-            <div class="work-pane"></div><div class="work-pane"></div>
-            <div class="work-pane"></div><div class="work-pane"></div>
+            <div class="work-pane" style="background-image:url('images/work/vanbostelen-home.png'); background-position:top;"></div>
+            <div class="work-pane" style="background-image:url('images/work/vanbostelen-contact.png'); background-position:top;"></div>
+            <div class="work-pane" style="background-image:url('images/work/vanbostelen-home.png'); background-size:220%; background-position:70% 80%;"></div>
+            <div class="work-pane" style="background-image:url('images/work/vanbostelen-contact.png'); background-size:200%; background-position:30% 60%;"></div>
           </div>
         </div>
-        <div class="work-card">
+        <div class="work-card soon">
           <h3 data-i18n="work.p3.name">Praktijk project</h3>
-          <p data-i18n="work.p3.tag">Binnenkort — dienstverlening</p>
+          <p data-i18n="work.p3.tag">Binnenkort - dienstverlening</p>
           <div class="work-window">
             <div class="work-pane"></div><div class="work-pane"></div>
             <div class="work-pane"></div><div class="work-pane"></div>
@@ -221,7 +181,7 @@
       <div class="why-text">
         <span class="section-label" data-i18n="why.label">Waarom Raam Studio</span>
         <h2 data-i18n="why.title">Geen account manager. Gewoon ik.</h2>
-        <p data-i18n="why.body">Grote bureaus werken met lagen: verkoop, project­management, developers. Bij Raam Studio praat je rechtstreeks met de persoon die je website bouwt — sneller, persoonlijker en zonder overheadkosten die jij uiteindelijk betaalt.</p>
+        <p data-i18n="why.body">Grote bureaus werken met lagen: verkoop, project­management, developers. Bij Raam Studio praat je rechtstreeks met de persoon die je website bouwt of je content maakt - sneller, persoonlijker en zonder overheadkosten die jij uiteindelijk betaalt.</p>
       </div>
       <div class="why-cards">
         <div class="why-card">
@@ -264,19 +224,28 @@
         <label for="email" data-i18n="contact.form.email">E-mail</label>
         <input type="email" id="email" name="email" required placeholder="naam@bedrijf.nl" data-i18n-placeholder="contact.form.emailPh">
 
-        <label for="budget" data-i18n="contact.form.budget">Interesse</label>
-        <select id="budget" name="budget">
-          <option value="basic" data-i18n="pricing.basic.name">Basic</option>
-          <option value="plus" data-i18n="pricing.plus.name">Plus</option>
-          <option value="premium" data-i18n="pricing.premium.name">Premium</option>
-          <option value="unsure" data-i18n="contact.form.unsure">Weet ik nog niet</option>
+        <label for="serviceType" data-i18n="contact.form.type">Waar ben je in geïnteresseerd?</label>
+        <select id="serviceType" name="type">
+          <option value="websites" data-i18n="contact.form.type.websites">Websites</option>
+          <option value="social" data-i18n="contact.form.type.social">Social media content</option>
+          <option value="anders" data-i18n="contact.form.type.other">Anders</option>
         </select>
+
+        <div id="packageField">
+          <label for="budget" data-i18n="contact.form.budget">Gewenst pakket</label>
+          <select id="budget" name="budget">
+            <option value="basic" data-i18n="pricing.basic.name">Basic</option>
+            <option value="plus" data-i18n="pricing.plus.name">Plus</option>
+            <option value="premium" data-i18n="pricing.premium.name">Premium</option>
+            <option value="unsure" data-i18n="contact.form.unsure">Weet ik nog niet</option>
+          </select>
+        </div>
 
         <label for="message" data-i18n="contact.form.message">Bericht</label>
         <textarea id="message" name="message" rows="4" required placeholder="Vertel iets over je bedrijf en je wensen..." data-i18n-placeholder="contact.form.messagePh"></textarea>
 
         <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Verstuur bericht</button>
-        <p class="form-note" id="formNote" data-i18n="contact.form.note">Dit formulier is nog niet gekoppeld aan e-mail — dat regelen we bij de lancering.</p>
+        <p class="form-note" id="formNote" data-i18n="contact.form.note">Dit formulier is nog niet gekoppeld aan e-mail - dat regelen we bij de lancering.</p>
       </form>
     </div>
   </section>
@@ -296,7 +265,7 @@
       </span>
       <span>Raam Studio</span>
     </div>
-    <p class="footer-tag" data-i18n="footer.tag">Websites voor lokale bedrijven in Leiden.</p>
+    <p class="footer-tag" data-i18n="footer.tag">Websites & social media content voor lokale bedrijven in Leiden.</p>
     <p class="footer-copy">© <span id="year"></span> Raam Studio. <span data-i18n="footer.rights">Alle rechten voorbehouden.</span></p>
   </div>
 </footer>

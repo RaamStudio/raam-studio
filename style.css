@@ -129,9 +129,60 @@ h3{ font-size: 20px; }
 .logo-mark{ color: var(--accent); display:flex; }
 .logo-text{ font-family: var(--font-display); font-size: 18px; font-weight:500; }
 
-.nav-links{ display:flex; gap: 32px; }
+.nav-links{ display:flex; align-items:center; gap: 32px; }
 .nav-links a{ font-size: 14px; color: var(--text-muted); transition: color 0.2s ease; }
-.nav-links a:hover{ color: var(--accent); }
+.nav-links a:hover, .nav-links a.active{ color: var(--accent); }
+
+/* ---- nav dropdown ---- */
+.dropdown{ position: relative; }
+.dropdown-toggle{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.dropdown-toggle:hover, .dropdown-toggle.active{ color: var(--accent); }
+.dropdown-toggle svg{ margin-left: -2px; transition: transform 0.2s ease; }
+.dropdown.open .dropdown-toggle svg{ transform: rotate(180deg); }
+.dropdown-menu{
+  position: absolute;
+  top: calc(100% + 16px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 28px rgba(31,41,55,0.12);
+  padding: 8px;
+  min-width: 180px;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+}
+.dropdown.open .dropdown-menu{ display: flex; }
+.dropdown-menu a{
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+.dropdown-menu a:hover{ background: var(--surface); }
+@media (max-width: 860px){
+  .dropdown-menu{
+    position: static;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    padding: 4px 0 4px 16px;
+    min-width: 0;
+  }
+}
 
 .nav-actions{ display:flex; align-items:center; gap: 16px; }
 
@@ -259,6 +310,36 @@ h3{ font-size: 20px; }
   font-size: 14px;
 }
 
+/* ============ WAT IK DOE ============ */
+.watikdoe-grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+@media (max-width: 720px){ .watikdoe-grid{ grid-template-columns: 1fr; } }
+
+.watikdoe-card{
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.watikdoe-card.featured{
+  border: 2px solid var(--accent);
+  background: var(--accent-tint);
+}
+.watikdoe-card i{ font-size: 28px; color: var(--accent); margin-bottom: 14px; display:block; }
+.watikdoe-card h3{ margin-bottom: 10px; }
+.watikdoe-card p{ color: var(--text-muted); font-size: 15px; margin: 0 0 16px; flex: 1; }
+.watikdoe-rate{ display:flex; align-items:baseline; gap:8px; margin: 0 0 20px; }
+.watikdoe-rate .amount{ font-family: var(--font-display); font-size: 28px; font-weight:500; color: var(--accent); }
+.watikdoe-rate .period{ font-size: 13px; color: var(--text-muted); }
+.watikdoe-card .btn{ align-self: flex-start; }
+
 /* ============ SERVICES ============ */
 .services-grid{
   display:grid;
@@ -350,7 +431,24 @@ h3{ font-size: 20px; }
   padding: 5px;
   background: var(--accent);
 }
-.work-pane{ background: var(--surface); border-radius: 3px; }
+.work-pane{
+  background: var(--surface);
+  border-radius: 3px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.4s ease;
+}
+.work-card:hover .work-pane{ transform: scale(1.04); }
+
+.work-card{ transition: transform 0.25s ease; }
+.work-card:hover{ transform: translateY(-4px); }
+
+.work-card.soon .work-pane{
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* ============ WHY ============ */
 .why{ background: var(--surface); }
@@ -395,6 +493,9 @@ h3{ font-size: 20px; }
   border-radius: var(--radius-md);
 }
 .contact-form label{ font-size: 13px; font-weight: 600; margin-top: 12px; }
+#packageField{ display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
+#packageField label{ margin-top: 0; }
+#packageField select{ width: 100%; }
 .contact-form input, .contact-form select, .contact-form textarea{
   padding: 12px 14px;
   border-radius: var(--radius-sm);
@@ -405,6 +506,15 @@ h3{ font-size: 20px; }
 }
 .contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus{
   border-color: var(--accent);
+}
+.contact-form select{
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%231F2937' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 11px 7px;
 }
 .contact-form .btn{ margin-top: 20px; }
 .form-note{ font-size: 12px; color: var(--text-faint); margin: 10px 0 0; text-align:center; }
