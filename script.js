@@ -84,29 +84,38 @@ const translations = {
     "pricing.cta": "Kies dit pakket",
     "pricing.basic.name": "Basic",
     "pricing.basic.f1": "Responsive website",
-    "pricing.basic.f2": "Contactpagina",
-    "pricing.basic.f3": "Google Maps",
-    "pricing.basic.f4": "Basis SEO",
+    "pricing.basic.f2": "1 revisieronde",
+    "pricing.basic.f3": "Vindbaar op Google Maps",
+    "pricing.basic.f4": "Goed vindbaar in Google",
     "pricing.plus.name": "Plus",
     "pricing.plus.f1": "Alles uit Basic",
     "pricing.plus.f2": "Hosting & domein",
     "pricing.plus.f3": "Beveiliging & backups",
-    "pricing.plus.f4": "Kleine contentwijzigingen",
+    "pricing.plus.f4": "Onbeperkte kleine aanpassingen",
     "pricing.premium.name": "Premium",
     "pricing.premium.f1": "Alles uit Plus",
     "pricing.premium.f2": "Voorrang bij support",
-    "pricing.premium.f3": "Onbeperkt kleine aanpassingen",
-    "pricing.premium.f4": "SEO-optimalisatie & monitoring",
+    "pricing.premium.f3": "Onbeperkte aanpassingen, ook nieuwe pagina's",
+    "pricing.premium.f4": "We blijven je vindbaarheid in Google verbeteren",
+
+    "faq.label": "Veelgestelde vragen",
+    "faq.title": "Nog even dit",
+    "faq.q1.q": "Wat valt er precies onder \"kleine aanpassingen\"?",
+    "faq.q1.a": "Denk aan tekst, foto's, prijzen of openingstijden aanpassen. Gaat het om een nieuwe pagina of een grotere wijziging in het ontwerp, dan bespreken we dat gewoon apart.",
+    "faq.q2.q": "Waarom is de bouwprijs zo laag?",
+    "faq.q2.a": "Ik werk efficiënt met moderne tools, waardoor ik de bouwkosten laag kan houden. Het maandabonnement zorgt ervoor dat hosting, beveiliging en onderhoud daarna goed geregeld blijven.",
+    "faq.q3.q": "Blijf ik eigenaar van mijn website en domeinnaam?",
+    "faq.q3.a": "Ja. De website en het domein zijn en blijven van jou.",
 
     "work.label": "Werk",
     "work.title": "Een kijkje door het raam",
-    "work.sub": "Een kijkje bij een aantal recente projecten.",
-    "work.p1.name": "Interactieve verjaardagssite",
-    "work.p1.tag": "Persoonlijk project - animatie & interactie",
+    "work.sub": "Een kijkje bij een aantal recente projecten - klik op een foto om 'm groter te bekijken.",
+    "work.p1.name": "Groenland Juwelier",
+    "work.p1.tag": "Live project - sieraden & juwelier",
     "work.p2.name": "Van Bostelen Smart Bouw",
     "work.p2.tag": "Portfolio - bouw & renovatie",
-    "work.p3.name": "Soon!",
-    "work.p3.tag": "Binnenkort - nieuwe projecten",
+    "work.p3.name": "Interactieve verjaardagssite",
+    "work.p3.tag": "Persoonlijk project - animatie & interactie",
 
     "why.label": "Waarom Raam Studio",
     "why.title": "Geen account manager. Gewoon ik.",
@@ -137,7 +146,7 @@ const translations = {
     "contact.form.note": "Ik reageer meestal binnen één dag.",
     "contact.form.sending": "Bezig met versturen...",
     "contact.form.sent": "Bedankt voor je bericht! Ik neem zo snel mogelijk contact met je op.",
-    "contact.form.error": "Er ging iets mis bij het versturen. Probeer het opnieuw of mail rechtstreeks naar ramisharp@outlook.com.",
+    "contact.form.error": "Er ging iets mis bij het versturen. Probeer het opnieuw of mail rechtstreeks naar raamstudio@hotmail.com.",
 
     "footer.tag": "Websites & social media content voor lokale bedrijven in Leiden.",
     "footer.rights": "Alle rechten voorbehouden."
@@ -223,29 +232,38 @@ const translations = {
     "pricing.cta": "Choose this plan",
     "pricing.basic.name": "Basic",
     "pricing.basic.f1": "Responsive website",
-    "pricing.basic.f2": "Contact page",
-    "pricing.basic.f3": "Google Maps",
-    "pricing.basic.f4": "Basic SEO",
+    "pricing.basic.f2": "1 round of revisions",
+    "pricing.basic.f3": "Findable on Google Maps",
+    "pricing.basic.f4": "Set up to be found on Google",
     "pricing.plus.name": "Plus",
     "pricing.plus.f1": "Everything in Basic",
     "pricing.plus.f2": "Hosting & domain",
     "pricing.plus.f3": "Security & backups",
-    "pricing.plus.f4": "Small content changes",
+    "pricing.plus.f4": "Unlimited small changes",
     "pricing.premium.name": "Premium",
     "pricing.premium.f1": "Everything in Plus",
     "pricing.premium.f2": "Priority support",
-    "pricing.premium.f3": "Unlimited small edits",
-    "pricing.premium.f4": "SEO optimization & monitoring",
+    "pricing.premium.f3": "Unlimited changes, including new pages",
+    "pricing.premium.f4": "We keep improving how easily people find you on Google",
+
+    "faq.label": "FAQ",
+    "faq.title": "A few more things",
+    "faq.q1.q": "What exactly counts as a \"small change\"?",
+    "faq.q1.a": "Think text, photos, prices or opening hours. If it's a new page or a bigger design change, we'll just discuss that separately.",
+    "faq.q2.q": "Why is the build price so low?",
+    "faq.q2.a": "I work efficiently with modern tools, which keeps the build cost down. The monthly plan is what keeps hosting, security and maintenance properly taken care of afterwards.",
+    "faq.q3.q": "Do I stay the owner of my website and domain name?",
+    "faq.q3.a": "Yes. The website and domain are and remain yours.",
 
     "work.label": "Work",
     "work.title": "A look through the window",
-    "work.sub": "A look at a few recent projects.",
-    "work.p1.name": "Interactive birthday site",
-    "work.p1.tag": "Personal project - animation & interaction",
+    "work.sub": "A look at a few recent projects - click a photo to view it larger.",
+    "work.p1.name": "Groenland Juwelier",
+    "work.p1.tag": "Live project - jewelry store",
     "work.p2.name": "Van Bostelen Smart Bouw",
     "work.p2.tag": "Portfolio - construction & renovation",
-    "work.p3.name": "Soon!",
-    "work.p3.tag": "Coming soon - new projects",
+    "work.p3.name": "Interactive birthday site",
+    "work.p3.tag": "Personal project - animation & interaction",
 
     "why.label": "Why Raam Studio",
     "why.title": "No account manager. Just me.",
@@ -276,7 +294,7 @@ const translations = {
     "contact.form.note": "I usually reply within a day.",
     "contact.form.sending": "Sending...",
     "contact.form.sent": "Thanks for your message! I'll get back to you as soon as possible.",
-    "contact.form.error": "Something went wrong sending this. Please try again or email ramisharp@outlook.com directly.",
+    "contact.form.error": "Something went wrong sending this. Please try again or email raamstudio@hotmail.com directly.",
 
     "footer.tag": "Websites & social media content for local businesses in Leiden.",
     "footer.rights": "All rights reserved."
@@ -413,4 +431,53 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---- footer year ----
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // ---- portfolio lightbox ----
+  const lightbox = document.getElementById("lightbox");
+  if (lightbox){
+    const lightboxImg = document.getElementById("lightboxImg");
+    let currentImages = [];
+    let currentIndex = 0;
+
+    const showImage = (i) => {
+      currentIndex = (i + currentImages.length) % currentImages.length;
+      lightboxImg.src = currentImages[currentIndex];
+    };
+
+    const openLightbox = (group, startSrc) => {
+      const panes = group.querySelectorAll(".work-pane[data-full]");
+      const seen = new Set();
+      currentImages = [];
+      panes.forEach(pane => {
+        const src = pane.getAttribute("data-full");
+        if (!seen.has(src)){ seen.add(src); currentImages.push(src); }
+      });
+      const startIndex = currentImages.indexOf(startSrc);
+      showImage(startIndex >= 0 ? startIndex : 0);
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+    };
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+    };
+
+    document.querySelectorAll(".work-window[data-lightbox-group]").forEach(group => {
+      group.querySelectorAll(".work-pane[data-full]").forEach(pane => {
+        pane.addEventListener("click", () => openLightbox(group, pane.getAttribute("data-full")));
+      });
+    });
+
+    document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
+    document.getElementById("lightboxPrev").addEventListener("click", () => showImage(currentIndex - 1));
+    document.getElementById("lightboxNext").addEventListener("click", () => showImage(currentIndex + 1));
+    lightbox.addEventListener("click", (e) => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener("keydown", (e) => {
+      if (!lightbox.classList.contains("is-open")) return;
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowLeft") showImage(currentIndex - 1);
+      if (e.key === "ArrowRight") showImage(currentIndex + 1);
+    });
+  }
 });
