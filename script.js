@@ -26,7 +26,13 @@ const translations = {
     "about.title": "Hallo, ik ben Rami",
     "about.p1": "Ik studeer ICT en ben via die weg verliefd geworden op webdevelopment - en inmiddels ook op contentcreatie. Raam Studio is waar dat is uitgegroeid tot iets echts: een klein, persoonlijk studio voor lokale ondernemers die een website willen, of gewoon wat meer zichtbaarheid op TikTok en Instagram, zonder het prijskaartje - of de eindeloze e-mailwisselingen - van een groot bureau.",
     "about.p2": "Werk je met mij samen, dan werk je rechtstreeks met de persoon die je site bouwt of je content maakt. Geen accountmanagers, geen overdrachtsmomenten - gewoon heldere communicatie van het eerste idee tot het eindresultaat.",
+    "about.p3": "Sinds kort doe ik dit niet meer helemaal alleen.",
     "about.founded": "Raam Studio - elke klant krijgt mijn volle aandacht.",
+
+    "matthijs.label": "Samen met",
+    "matthijs.name": "Matthijs",
+    "matthijs.p1": "Matthijs is geboren en getogen in Leiden en heeft een achtergrond in marketing. Hij wil de stad die hem heeft gevormd graag helpen meebewegen met een wereld die steeds digitaler wordt.",
+    "matthijs.p2": "Binnen Raam Studio denkt hij mee over hoe lokale ondernemers zich zo goed mogelijk online laten zien - ik blijf de drijvende kracht achter Raam Studio, maar met Matthijs erbij kan ik klanten nog beter helpen.",
 
     "diensten.label": "Diensten",
     "diensten.title": "Twee manieren om samen te werken",
@@ -118,14 +124,14 @@ const translations = {
     "work.p3.tag": "Persoonlijk project - animatie & interactie",
 
     "why.label": "Waarom Raam Studio",
-    "why.title": "Geen account manager. Gewoon ik.",
-    "why.body": "Grote bureaus werken met lagen: verkoop, projectmanagement, developers. Bij Raam Studio praat je rechtstreeks met de persoon die je website bouwt of je content maakt - sneller, persoonlijker en zonder overheadkosten die jij uiteindelijk betaalt.",
+    "why.title": "Geen account manager. Gewoon wij.",
+    "why.body": "Grote bureaus werken met lagen: verkoop, projectmanagement, developers. Bij Raam Studio praat je rechtstreeks met ons - de mensen die je website bouwen of je content maken - sneller, persoonlijker en zonder overheadkosten die jij uiteindelijk betaalt.",
     "why.c1.title": "Direct & persoonlijk",
     "why.c1.body": "Eén aanspreekpunt, van eerste gesprek tot livegang.",
     "why.c2.title": "Eerlijke prijzen",
     "why.c2.body": "Transparante pakketten, geen verrassingen achteraf.",
     "why.c3.title": "Lokale kennis",
-    "why.c3.body": "Ik ken de Leidse markt en denk mee met lokale ondernemers.",
+    "why.c3.body": "Wij kennen de Leidse markt en denken mee met lokale ondernemers.",
 
     "contact.label": "Contact",
     "contact.title": "Laten we kennismaken",
@@ -174,7 +180,13 @@ const translations = {
     "about.title": "Hi, I'm Rami",
     "about.p1": "I'm an ICT student who fell in love with web development along the way - and these days with content creation too. Raam Studio is where that turned into something real: a small, personal studio for local business owners who want a website, or just a bit more visibility on TikTok and Instagram, without the price tag - or the endless email chains - of a big agency.",
     "about.p2": "When you work with me, you work directly with the person building your site or making your content. No account managers, no hand-offs - just clear communication from the first idea to the end result.",
+    "about.p3": "These days, I don't quite do this alone anymore.",
     "about.founded": "Raam Studio - every client gets my full attention.",
+
+    "matthijs.label": "Together with",
+    "matthijs.name": "Matthijs",
+    "matthijs.p1": "Matthijs was born and raised in Leiden and has a background in marketing. He wants to help the city that shaped him keep up with an increasingly digital world.",
+    "matthijs.p2": "Within Raam Studio he thinks along on how local businesses can show up online as well as possible - I remain the driving force behind Raam Studio, but with Matthijs on board I can help clients even better.",
 
     "diensten.label": "Services",
     "diensten.title": "Two ways to work together",
@@ -266,14 +278,14 @@ const translations = {
     "work.p3.tag": "Personal project - animation & interaction",
 
     "why.label": "Why Raam Studio",
-    "why.title": "No account manager. Just me.",
-    "why.body": "Big agencies work in layers: sales, project management, developers. At Raam Studio you speak directly with the person building your website or making your content - faster, more personal, and without the overhead costs you'd otherwise pay for.",
+    "why.title": "No account manager. Just us.",
+    "why.body": "Big agencies work in layers: sales, project management, developers. At Raam Studio you speak directly with us - the people building your website or making your content - faster, more personal, and without the overhead costs you'd otherwise pay for.",
     "why.c1.title": "Direct & personal",
     "why.c1.body": "One point of contact, from first chat to launch.",
     "why.c2.title": "Fair pricing",
     "why.c2.body": "Transparent packages, no surprise costs later.",
     "why.c3.title": "Local knowledge",
-    "why.c3.body": "I know the Leiden market and think along with local business owners.",
+    "why.c3.body": "We know the Leiden market and think along with local business owners.",
 
     "contact.label": "Contact",
     "contact.title": "Let's talk",

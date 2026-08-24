@@ -281,6 +281,10 @@ h3{ font-size: 20px; }
 }
 @media (max-width: 860px){ .about-grid{ grid-template-columns: 1fr; } }
 
+.about-grid.reverse{ grid-template-columns: 1fr 280px; }
+@media (max-width: 860px){ .about-grid.reverse{ grid-template-columns: 1fr; } }
+.about-grid.second{ margin-top: 64px; padding-top: 56px; border-top: 1px solid var(--border); }
+
 .window-frame{
   aspect-ratio: 3/4;
   border: 6px solid var(--accent);
@@ -591,4 +595,5 @@ h3{ font-size: 20px; }
 .footer-inner{ text-align:center; }
 .footer-brand{ display:flex; align-items:center; justify-content:center; gap: 8px; font-family: var(--font-display); font-size: 16px; color: var(--accent); margin-bottom: 8px; }
 .footer-tag{ color: var(--text-muted); font-size: 14px; margin: 0 0 16px; }
+.footer-kvk{ color: var(--text-faint); font-size: 13px; margin: 0 0 6px; }
 .footer-copy{ color: var(--text-faint); font-size: 13px; margin:0; }
