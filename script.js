@@ -46,7 +46,7 @@ const translations = {
 
     "websitespage.label": "Websites",
     "websitespage.title": "Een website die voor je werkt",
-    "websitespage.sub": "Snel, betaalbaar en persoonlijk - geen account managers, geen verrassingen achteraf. Hieronder vind je wat ik voor je kan bouwen en wat het kost.",
+    "websitespage.sub": "Snel, betaalbaar en persoonlijk - geen account managers, geen verrassingen achteraf. Hieronder vind je wat wij voor je kunnen bouwen en wat het kost.",
     "websitespage.cta": "Neem contact op",
 
     "socialpage.label": "Social Media Content",
@@ -73,11 +73,11 @@ const translations = {
     "social.package.note": "Aantal video's per week is bespreekbaar - dit is een gemiddelde, geen vast aantal.",
 
     "services.label": "Diensten",
-    "services.title": "Wat ik voor je kan bouwen",
+    "services.title": "Wat wij voor je kunnen bouwen",
     "services.s1.title": "Websiteontwerp",
     "services.s1.body": "Een responsive website die er op elk scherm professioneel uitziet - afgestemd op jouw bedrijf en doelgroep.",
     "services.s2.title": "Hosting & onderhoud",
-    "services.s2.body": "Ik regel hosting, domein, updates en backups, zodat jij je met je bedrijf kunt bezighouden - niet met techniek.",
+    "services.s2.body": "Wij regelen hosting, domein, updates en backups, zodat jij je met je bedrijf kunt bezighouden - niet met techniek.",
     "services.s3.title": "SEO & vindbaarheid",
     "services.s3.body": "Zodat klanten in Leiden en omgeving je ook écht vinden via Google.",
 
@@ -109,7 +109,7 @@ const translations = {
     "faq.q1.q": "Wat valt er precies onder \"kleine aanpassingen\"?",
     "faq.q1.a": "Denk aan tekst, foto's, prijzen of openingstijden aanpassen. Gaat het om een nieuwe pagina of een grotere wijziging in het ontwerp, dan bespreken we dat gewoon apart.",
     "faq.q2.q": "Waarom is de bouwprijs zo laag?",
-    "faq.q2.a": "Ik werk efficiënt met moderne tools, waardoor ik de bouwkosten laag kan houden. Het maandabonnement zorgt ervoor dat hosting, beveiliging en onderhoud daarna goed geregeld blijven.",
+    "faq.q2.a": "Wij werken efficiënt met moderne tools, waardoor we de bouwkosten laag kunnen houden. Het maandabonnement zorgt ervoor dat hosting, beveiliging en onderhoud daarna goed geregeld blijven.",
     "faq.q3.q": "Blijf ik eigenaar van mijn website en domeinnaam?",
     "faq.q3.a": "Ja. De website en het domein zijn en blijven van jou.",
 
@@ -135,7 +135,7 @@ const translations = {
 
     "contact.label": "Contact",
     "contact.title": "Laten we kennismaken",
-    "contact.body": "Vertel me kort over je bedrijf en wat je zoekt. Ik reageer binnen een dag.",
+    "contact.body": "Vertel ons kort over je bedrijf en wat je zoekt. Wij reageren binnen een dag.",
     "contact.form.name": "Naam",
     "contact.form.namePh": "Je naam",
     "contact.form.email": "E-mail",
@@ -149,9 +149,9 @@ const translations = {
     "contact.form.message": "Bericht",
     "contact.form.messagePh": "Vertel iets over je bedrijf en je wensen...",
     "contact.form.submit": "Verstuur bericht",
-    "contact.form.note": "Ik reageer meestal binnen één dag.",
+    "contact.form.note": "Wij reageren meestal binnen één dag.",
     "contact.form.sending": "Bezig met versturen...",
-    "contact.form.sent": "Bedankt voor je bericht! Ik neem zo snel mogelijk contact met je op.",
+    "contact.form.sent": "Bedankt voor je bericht! Wij nemen zo snel mogelijk contact met je op.",
     "contact.form.error": "Er ging iets mis bij het versturen. Probeer het opnieuw of mail rechtstreeks naar raamstudio@hotmail.com.",
 
     "footer.tag": "Websites & social media content voor lokale bedrijven in Leiden.",
@@ -200,7 +200,7 @@ const translations = {
 
     "websitespage.label": "Websites",
     "websitespage.title": "A website that works for you",
-    "websitespage.sub": "Fast, affordable and personal - no account managers, no surprises later. Below is what I can build for you and what it costs.",
+    "websitespage.sub": "Fast, affordable and personal - no account managers, no surprises later. Below is what we can build for you and what it costs.",
     "websitespage.cta": "Get in touch",
 
     "socialpage.label": "Social Media Content",
@@ -227,11 +227,11 @@ const translations = {
     "social.package.note": "Number of videos per week is negotiable - this is an average, not a fixed amount.",
 
     "services.label": "Services",
-    "services.title": "What I can build for you",
+    "services.title": "What we can build for you",
     "services.s1.title": "Website design",
     "services.s1.body": "A responsive website that looks professional on every screen - built around your business and your audience.",
     "services.s2.title": "Hosting & maintenance",
-    "services.s2.body": "I handle hosting, domain, updates and backups, so you can focus on your business - not the tech.",
+    "services.s2.body": "We handle hosting, domain, updates and backups, so you can focus on your business - not the tech.",
     "services.s3.title": "SEO & visibility",
     "services.s3.body": "So customers in Leiden and beyond can actually find you on Google.",
 
@@ -263,7 +263,7 @@ const translations = {
     "faq.q1.q": "What exactly counts as a \"small change\"?",
     "faq.q1.a": "Think text, photos, prices or opening hours. If it's a new page or a bigger design change, we'll just discuss that separately.",
     "faq.q2.q": "Why is the build price so low?",
-    "faq.q2.a": "I work efficiently with modern tools, which keeps the build cost down. The monthly plan is what keeps hosting, security and maintenance properly taken care of afterwards.",
+    "faq.q2.a": "We work efficiently with modern tools, which keeps the build cost down. The monthly plan is what keeps hosting, security and maintenance properly taken care of afterwards.",
     "faq.q3.q": "Do I stay the owner of my website and domain name?",
     "faq.q3.a": "Yes. The website and domain are and remain yours.",
 
@@ -289,7 +289,7 @@ const translations = {
 
     "contact.label": "Contact",
     "contact.title": "Let's talk",
-    "contact.body": "Tell me a bit about your business and what you're looking for. I'll reply within a day.",
+    "contact.body": "Tell us a bit about your business and what you're looking for. We'll reply within a day.",
     "contact.form.name": "Name",
     "contact.form.namePh": "Your name",
     "contact.form.email": "Email",
@@ -301,11 +301,11 @@ const translations = {
     "contact.form.budget": "Preferred package",
     "contact.form.unsure": "Not sure yet",
     "contact.form.message": "Message",
-    "contact.form.messagePh": "Tell me about your business and what you need...",
+    "contact.form.messagePh": "Tell us about your business and what you need...",
     "contact.form.submit": "Send message",
-    "contact.form.note": "I usually reply within a day.",
+    "contact.form.note": "We usually reply within a day.",
     "contact.form.sending": "Sending...",
-    "contact.form.sent": "Thanks for your message! I'll get back to you as soon as possible.",
+    "contact.form.sent": "Thanks for your message! We'll get back to you as soon as possible.",
     "contact.form.error": "Something went wrong sending this. Please try again or email raamstudio@hotmail.com directly.",
 
     "footer.tag": "Websites & social media content for local businesses in Leiden.",
