@@ -597,3 +597,15 @@ h3{ font-size: 20px; }
 .footer-tag{ color: var(--text-muted); font-size: 14px; margin: 0 0 16px; }
 .footer-kvk{ color: var(--text-faint); font-size: 13px; margin: 0 0 6px; }
 .footer-copy{ color: var(--text-faint); font-size: 13px; margin:0; }
+.footer-links{ display:flex; gap: 16px; justify-content:center; margin: 0 0 14px; }
+.footer-links a{ color: var(--text-faint); font-size: 13px; }
+.footer-links a:hover{ color: var(--accent); }
+
+/* ============ LEGAL PAGES ============ */
+.legal-content{ max-width: 720px; margin: 0 auto; }
+.legal-content h2{ font-size: 22px; margin: 40px 0 12px; }
+.legal-content h2:first-child{ margin-top:0; }
+.legal-content p{ color: var(--text-muted); margin: 0 0 14px; }
+.legal-content ul{ margin: 0 0 14px; padding-left: 20px; list-style: disc; color: var(--text-muted); }
+.legal-content li{ margin-bottom: 6px; }
+.legal-content .legal-updated{ color: var(--text-faint); font-size: 13px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); }
