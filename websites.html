@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Raam Studio - Websites for local businesses in Leiden</title>
+<title data-i18n="meta.title.websites">Raam Studio - Websites for local businesses in Leiden</title>
 <meta name="description" content="Raam Studio builds modern, fast and affordable websites for local businesses in Leiden - salons, restaurants, shops and more.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,11 +72,77 @@
     </div>
   </section>
 
+  <!-- ============ SHOWCASE ============ -->
+  <section id="showcase" class="section showcase-section">
+    <div class="container" style="text-align:center;">
+      <span class="section-label" data-i18n="showcase.label">Voorbeelden</span>
+      <h2 data-i18n="showcase.title">Wat we al hebben gemaakt</h2>
+      <p class="section-sub" style="margin-left:auto; margin-right:auto;" data-i18n="showcase.sub">Blader door een aantal websites die we hebben gebouwd en klik door naar de live versie.</p>
+
+      <div class="showcase" data-carousel role="region" aria-roledescription="carousel" aria-label="Voorbeelden van gemaakte websites" data-i18n-aria="showcase.aria" tabindex="0">
+        <div class="showcase-frame">
+          <div class="showcase-viewport">
+            <div class="showcase-track">
+              <a class="showcase-slide" href="https://groenlandjuwelier.nl" target="_blank" rel="noopener">
+                <img src="images/work/groenland-home.jpg" alt="Hoofdpagina van de website van Groenland Juwelier" data-i18n-alt="work.p1.alt">
+              </a>
+              <a class="showcase-slide" href="https://mimouna-raam-studio.vercel.app" target="_blank" rel="noopener">
+                <img src="images/work/mimouna-home.jpg" alt="Hoofdpagina van de website van Mimouna" data-i18n-alt="work.p2.alt" loading="lazy">
+              </a>
+              <a class="showcase-slide" href="https://roos-la-fleur-raam-studio.vercel.app" target="_blank" rel="noopener">
+                <img src="images/work/roos-home.jpg" alt="Hoofdpagina van de website van Roos & la Fleur" data-i18n-alt="work.p3.alt" loading="lazy">
+              </a>
+            </div>
+          </div>
+          <button class="showcase-arrow showcase-prev" type="button" aria-label="Vorig voorbeeld" data-i18n-aria="showcase.prev">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <button class="showcase-arrow showcase-next" type="button" aria-label="Volgend voorbeeld" data-i18n-aria="showcase.next">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+        <div class="showcase-sill" aria-hidden="true"></div>
+
+        <div class="showcase-caps-viewport">
+          <div class="showcase-caps">
+            <div class="showcase-cap">
+              <h3 data-i18n="work.p1.name">Groenland Juwelier</h3>
+              <p class="showcase-tag" data-i18n="work.p1.tag">Live project - sieraden & juwelier</p>
+              <p class="showcase-body" data-i18n="work.p1.body">Website voor een juwelier aan de Haarlemmerstraat in Leiden, met collectie, ringpagina's en winkelmandje.</p>
+              <a class="btn btn-primary" href="https://groenlandjuwelier.nl" target="_blank" rel="noopener"><span data-i18n="work.visit">Bekijk de website</span>&nbsp;&rarr;</a>
+            </div>
+            <div class="showcase-cap">
+              <h3 data-i18n="work.p2.name">Mimouna</h3>
+              <p class="showcase-tag" data-i18n="work.p2.tag">Portfolio - mode & personal styling</p>
+              <p class="showcase-body" data-i18n="work.p2.body">Website voor een modeboetiek en personal stylist in Oegstgeest, met looks-galerij, reviews en openingstijden.</p>
+              <a class="btn btn-primary" href="https://mimouna-raam-studio.vercel.app" target="_blank" rel="noopener"><span data-i18n="work.visit">Bekijk de website</span>&nbsp;&rarr;</a>
+            </div>
+            <div class="showcase-cap">
+              <h3 data-i18n="work.p3.name">Roos & la Fleur</h3>
+              <p class="showcase-tag" data-i18n="work.p3.tag">Portfolio - loodgieter & installatiebedrijf</p>
+              <p class="showcase-body" data-i18n="work.p3.body">Website voor een gecertificeerd installatiebedrijf in Hillegom, met diensten, reviews en werken op afspraak.</p>
+              <a class="btn btn-primary" href="https://roos-la-fleur-raam-studio.vercel.app" target="_blank" rel="noopener"><span data-i18n="work.visit">Bekijk de website</span>&nbsp;&rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-dots">
+          <button class="showcase-dot" type="button" aria-label="Groenland Juwelier" data-i18n-aria="work.p1.name"></button>
+          <button class="showcase-dot" type="button" aria-label="Mimouna" data-i18n-aria="work.p2.name"></button>
+          <button class="showcase-dot" type="button" aria-label="Roos & la Fleur" data-i18n-aria="work.p3.name"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ SERVICES ============ -->
   <section id="services" class="section services">
     <div class="container">
       <span class="section-label" data-i18n="services.label">Diensten</span>
       <h2 data-i18n="services.title">Wat wij voor je kunnen bouwen</h2>
+      <div class="photo-banner">
+        <img src="images/stock/websites-banner.jpg" alt="Laptop met code op een houten bureau" data-i18n-alt="websitespage.imgAlt" loading="lazy">
+      </div>
       <div class="services-grid">
         <div class="service-card">
           <i class="ti ti-layout-grid" aria-hidden="true"></i>
@@ -119,21 +185,21 @@
         <div class="price-card featured">
           <span class="badge" data-i18n="pricing.popular">Populair</span>
           <h3 data-i18n="pricing.plus.name">Plus</h3>
-          <p class="price"><span class="amount">€399</span><span class="period" data-i18n="pricing.setup">setup</span></p>
+          <p class="price"><span class="amount">€399</span><span class="period" data-i18n="pricing.setup">eenmalig</span></p>
           <p class="price-sub"><span class="amount-sm">€29</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
           <ul>
             <li data-i18n="pricing.plus.f1">Alles uit Basic</li>
             <li data-i18n="pricing.plus.f2">Hosting & domein</li>
             <li data-i18n="pricing.plus.f3">Beveiliging & backups</li>
-            <li data-i18n="pricing.plus.f4">Onbeperkte kleine aanpassingen</li>
+            <li data-i18n="pricing.plus.f4">Aanpasbaar, precies zoals jij het wilt</li>
           </ul>
           <a href="contact.html" class="btn btn-primary" data-i18n="pricing.cta">Kies dit pakket</a>
         </div>
 
         <div class="price-card">
           <h3 data-i18n="pricing.premium.name">Premium</h3>
-          <p class="price"><span class="amount">€599</span><span class="period" data-i18n="pricing.setup">setup</span></p>
-          <p class="price-sub"><span class="amount-sm">€60</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
+          <p class="price"><span class="amount">€599</span><span class="period" data-i18n="pricing.setup">eenmalig</span></p>
+          <p class="price-sub"><span class="amount-sm">€59</span><span class="period" data-i18n="pricing.month">/ maand</span></p>
           <ul>
             <li data-i18n="pricing.premium.f1">Alles uit Plus</li>
             <li data-i18n="pricing.premium.f2">Voorrang bij support</li>
@@ -144,8 +210,11 @@
         </div>
 
       </div>
-      <div class="teaser-footer" style="text-align:center; margin-top:40px;">
-        <a href="contact.html" class="btn btn-primary" data-i18n="websitespage.cta">Neem contact op</a>
+      <div class="teaser-footer" style="margin-top:40px;">
+        <div class="cta-stack">
+          <a href="contact.html#proefwebsite" class="btn btn-primary btn-lg" data-i18n="websitespage.cta">Vraag geheel gratis een proefwebsite aan</a>
+          <span class="cta-caption" data-i18n="hero.ctaSub">Geeft u een idee hoe uw website eruit kan zien</span>
+        </div>
       </div>
     </div>
   </section>
@@ -189,8 +258,8 @@
     </div>
     <p class="footer-tag" data-i18n="footer.tag">Websites & social media content voor lokale bedrijven in Leiden.</p>
     <div class="footer-links">
-      <a href="privacyverklaring.html">Privacyverklaring</a>
-      <a href="voorwaarden.html">Algemene voorwaarden</a>
+      <a href="privacyverklaring.html" data-i18n="footer.privacy">Privacyverklaring</a>
+      <a href="voorwaarden.html" data-i18n="footer.terms">Algemene voorwaarden</a>
     </div>
     <p class="footer-kvk">KVK 42139474</p>
     <p class="footer-copy">© <span id="year"></span> Raam Studio. <span data-i18n="footer.rights">Alle rechten voorbehouden.</span></p>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Raam Studio - Websites for local businesses in Leiden</title>
+<title data-i18n="meta.title.home">Raam Studio - Websites for local businesses in Leiden</title>
 <meta name="description" content="Raam Studio builds modern, fast and affordable websites for local businesses in Leiden - salons, restaurants, shops and more.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,8 +73,11 @@
       <h1 data-i18n="hero.title">Websites en content die lokale bedrijven laten groeien</h1>
       <p class="hero-sub" data-i18n="hero.sub">Moderne, snelle en betaalbare websites - plus content die opvalt op TikTok en Instagram - voor salons, restaurants en winkels in Leiden en omgeving.</p>
       <div class="hero-actions">
-        <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta">Neem contact op</a>
-        <a href="#work" class="btn btn-ghost" data-i18n="hero.cta2">Bekijk het werk</a>
+        <div class="cta-stack">
+          <a href="contact.html#proefwebsite" class="btn btn-primary btn-lg" data-i18n="hero.cta">Vraag geheel gratis een proefwebsite aan</a>
+          <span class="cta-caption" data-i18n="hero.ctaSub">Geeft u een idee hoe uw website eruit kan zien</span>
+        </div>
+        <a href="#work" class="btn btn-ghost btn-lg" data-i18n="hero.cta2">Bekijk het werk</a>
       </div>
     </div>
   </section>
@@ -109,7 +112,7 @@
         </div>
       </div>
       <div class="about-text">
-        <span class="section-label" data-i18n="about.label">Over mij</span>
+        <span class="section-label" data-i18n="about.label">Over ons</span>
         <h2 data-i18n="about.title">Hallo, ik ben Rami</h2>
         <p data-i18n="about.p1">Ik studeer ICT en ben via die weg verliefd geworden op webdevelopment - en inmiddels ook op contentcreatie. Raam Studio is waar dat is uitgegroeid tot iets echts: een klein, persoonlijk studio voor lokale ondernemers die een website willen, of gewoon wat meer zichtbaarheid op TikTok en Instagram, zonder het prijskaartje - of de eindeloze e-mailwisselingen - van een groot bureau.</p>
         <p data-i18n="about.p2">Werk je met mij samen, dan werk je rechtstreeks met de persoon die je site bouwt of je content maakt. Geen accountmanagers, geen overdrachtsmomenten - gewoon heldere communicatie van het eerste idee tot het eindresultaat.</p>
@@ -128,7 +131,7 @@
       <div class="about-visual">
         <div class="window-frame">
           <img src="images/matthijs-1.jpg" alt="Matthijs, Raam Studio" class="window-pane">
-          <img src="images/matthijs-2.jpg" alt="Matthijs aan het werk" class="window-pane">
+          <img src="images/matthijs-2.jpg" alt="Matthijs at work" class="window-pane">
           <img src="images/matthijs-3.jpg" alt="Matthijs" class="window-pane">
           <img src="images/matthijs-4.jpg" alt="Matthijs" class="window-pane">
         </div>
@@ -164,49 +167,35 @@
     <div class="container">
       <span class="section-label" data-i18n="work.label">Werk</span>
       <h2 data-i18n="work.title">Een kijkje door het raam</h2>
-      <p class="section-sub" data-i18n="work.sub">Een kijkje bij een aantal recente projecten - klik op een foto om 'm groter te bekijken.</p>
+      <p class="section-sub" data-i18n="work.sub">Een kijkje bij een aantal recente projecten - klik op een project om de website te bekijken.</p>
       <div class="work-grid">
-        <div class="work-card">
+        <a class="work-card" href="https://groenlandjuwelier.nl" target="_blank" rel="noopener">
           <h3 data-i18n="work.p1.name">Groenland Juwelier</h3>
           <p data-i18n="work.p1.tag">Live project - sieraden & juwelier</p>
-          <div class="work-window" data-lightbox-group="p1">
-            <div class="work-pane" data-full="images/work/groenland-intro.png" style="background-image:url('images/work/groenland-intro.png'); background-position:center;"></div>
-            <div class="work-pane" data-full="images/work/groenland-grid.png" style="background-image:url('images/work/groenland-grid.png'); background-position:center;"></div>
-            <div class="work-pane" data-full="images/work/groenland-card.png" style="background-image:url('images/work/groenland-card.png'); background-position:center;"></div>
-            <div class="work-pane" data-full="images/work/groenland-intro.png" style="background-image:url('images/work/groenland-intro.png'); background-size:180%; background-position:60% 20%;"></div>
+          <div class="work-window">
+            <img src="images/work/groenland-home.jpg" alt="Hoofdpagina van de website van Groenland Juwelier" data-i18n-alt="work.p1.alt" loading="lazy">
           </div>
-        </div>
-        <div class="work-card">
-          <h3 data-i18n="work.p2.name">Van Bostelen Smart Bouw</h3>
-          <p data-i18n="work.p2.tag">Portfolio - bouw & renovatie</p>
-          <div class="work-window" data-lightbox-group="p2">
-            <div class="work-pane" data-full="images/work/vanbostelen-home.png" style="background-image:url('images/work/vanbostelen-home.png'); background-position:top;"></div>
-            <div class="work-pane" data-full="images/work/vanbostelen-contact.png" style="background-image:url('images/work/vanbostelen-contact.png'); background-position:top;"></div>
-            <div class="work-pane" data-full="images/work/vanbostelen-home.png" style="background-image:url('images/work/vanbostelen-home.png'); background-size:220%; background-position:70% 80%;"></div>
-            <div class="work-pane" data-full="images/work/vanbostelen-contact.png" style="background-image:url('images/work/vanbostelen-contact.png'); background-size:200%; background-position:30% 60%;"></div>
+          <span class="work-link"><span data-i18n="work.visit">Bekijk de website</span> &rarr;</span>
+        </a>
+        <a class="work-card" href="https://mimouna-raam-studio.vercel.app" target="_blank" rel="noopener">
+          <h3 data-i18n="work.p2.name">Mimouna</h3>
+          <p data-i18n="work.p2.tag">Portfolio - mode & personal styling</p>
+          <div class="work-window">
+            <img src="images/work/mimouna-home.jpg" alt="Hoofdpagina van de website van Mimouna" data-i18n-alt="work.p2.alt" loading="lazy">
           </div>
-        </div>
-        <div class="work-card">
-          <h3 data-i18n="work.p3.name">Interactieve verjaardagssite</h3>
-          <p data-i18n="work.p3.tag">Persoonlijk project - animatie & interactie</p>
-          <div class="work-window" data-lightbox-group="p3">
-            <div class="work-pane" data-full="images/work/mya-intro.png" style="background-image:url('images/work/mya-intro.png'); background-position:center;"></div>
-            <div class="work-pane" data-full="images/work/mya-grid.png" style="background-image:url('images/work/mya-grid.png'); background-position:center;"></div>
-            <div class="work-pane" data-full="images/work/mya-card.png" style="background-image:url('images/work/mya-card.png'); background-position:center;"></div>
-            <div class="work-pane" data-full="images/work/mya-intro.png" style="background-image:url('images/work/mya-intro.png'); background-size:180%; background-position:60% 20%;"></div>
+          <span class="work-link"><span data-i18n="work.visit">Bekijk de website</span> &rarr;</span>
+        </a>
+        <a class="work-card" href="https://roos-la-fleur-raam-studio.vercel.app" target="_blank" rel="noopener">
+          <h3 data-i18n="work.p3.name">Roos & la Fleur</h3>
+          <p data-i18n="work.p3.tag">Portfolio - loodgieter & installatiebedrijf</p>
+          <div class="work-window">
+            <img src="images/work/roos-home.jpg" alt="Hoofdpagina van de website van Roos & la Fleur" data-i18n-alt="work.p3.alt" loading="lazy">
           </div>
-        </div>
+          <span class="work-link"><span data-i18n="work.visit">Bekijk de website</span> &rarr;</span>
+        </a>
       </div>
     </div>
   </section>
-
-  <!-- ============ LIGHTBOX ============ -->
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox-close" id="lightboxClose" aria-label="Sluiten">&times;</button>
-    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Vorige">&larr;</button>
-    <img class="lightbox-img" id="lightboxImg" src="" alt="">
-    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Volgende">&rarr;</button>
-  </div>
 
   <!-- ============ WHY WORK WITH ME ============ -->
   <section class="section why">
@@ -253,8 +242,8 @@
     </div>
     <p class="footer-tag" data-i18n="footer.tag">Websites & social media content voor lokale bedrijven in Leiden.</p>
     <div class="footer-links">
-      <a href="privacyverklaring.html">Privacyverklaring</a>
-      <a href="voorwaarden.html">Algemene voorwaarden</a>
+      <a href="privacyverklaring.html" data-i18n="footer.privacy">Privacyverklaring</a>
+      <a href="voorwaarden.html" data-i18n="footer.terms">Algemene voorwaarden</a>
     </div>
     <p class="footer-kvk">KVK 42139474</p>
     <p class="footer-copy">© <span id="year"></span> Raam Studio. <span data-i18n="footer.rights">Alle rechten voorbehouden.</span></p>
