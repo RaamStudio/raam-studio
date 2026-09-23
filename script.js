@@ -109,8 +109,6 @@ const translations = {
 
     "faq.label": "Veelgestelde vragen",
     "faq.title": "Nog even dit",
-    "faq.q1.q": "Wat valt er precies onder \"kleine aanpassingen\"?",
-    "faq.q1.a": "Denk aan tekst, foto's, prijzen of openingstijden aanpassen. Gaat het om een nieuwe pagina of een grotere wijziging in het ontwerp, dan bespreken we dat gewoon apart.",
     "faq.q2.q": "Waarom is de bouwprijs zo laag?",
     "faq.q2.a": "Wij werken efficiënt met moderne tools, waardoor we de bouwkosten laag kunnen houden. Het maandabonnement zorgt ervoor dat hosting, beveiliging en onderhoud daarna goed geregeld blijven.",
     "faq.q3.q": "Blijf ik eigenaar van mijn website en domeinnaam?",
@@ -346,8 +344,6 @@ const translations = {
 
     "faq.label": "FAQ",
     "faq.title": "A few more things",
-    "faq.q1.q": "What exactly counts as a \"small change\"?",
-    "faq.q1.a": "Think text, photos, prices or opening hours. If it's a new page or a bigger design change, we'll just discuss that separately.",
     "faq.q2.q": "Why is the build price so low?",
     "faq.q2.a": "We work efficiently with modern tools, which keeps the build cost down. The monthly plan is what keeps hosting, security and maintenance properly taken care of afterwards.",
     "faq.q3.q": "Do I stay the owner of my website and domain name?",
